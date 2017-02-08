@@ -27,9 +27,9 @@ Assumptions:
 
 Probabilities: 2 alleles \\(A,a\\), proportions: \\(p\\), \\(q=1-p\\). A new zygote will be:
 
-\\(AA\to p^2\\), after fitness selection \\(AA\to p^2 W_{AA}\\).\n
-\\(Aa\to 2pq\\), after fitness selection \\(Aa\to 2pq W_{Aa}\\).\n
-\\(aa\to q^2\\), after fitness selection \\(aa\to q^2 W_{aa}\\).\n
+\\(AA\to p^2\\), after fitness selection \\(AA\to p^2 W_{AA}\\).\\
+\\(Aa\to 2pq\\), after fitness selection \\(Aa\to 2pq W_{Aa}\\).\\
+\\(aa\to q^2\\), after fitness selection \\(aa\to q^2 W_{aa}\\).\\
 
 
 If all fitnesses were 1 (no selection), the gene frequency doesn't change in the next pool (if we pick an individual at random and then a gene at random):
