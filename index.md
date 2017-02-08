@@ -17,7 +17,7 @@ Assumptions:
 * No immigration/emigration
 * No mutation
 * Large population (ignore stochastic effects)
-* Constant fitnesses [^Fitness depends on survivability and reproductive power. Density/Frequency dependence]
+* Constant fitnesses [^1]
 * Random mating.
 * One locus (genotypes only at one place).
 * Diploid population.
@@ -25,7 +25,7 @@ Assumptions:
 
 Probabilities: 2 alleles $A,a$, proportions: $p$, $q=1-p$. A new zygote will be:
 
-$AA\to p^2$, after fitness selection $AA\to p^2 W_{AA}$.
+\\(AA\to p^2\\), after fitness selection $AA\to p^2 W_{AA}$.
 $Aa\to 2pq$, after fitness selection $Aa\to 2pq W_{Aa}$.
 $aa\to q^2$, after fitness selection $aa\to q^2 W_{aa}$.
 
@@ -43,7 +43,7 @@ $W_a = pW_{Aa} + qW_{aa}$
 
 Note that $\bar{W} = pW_A + qW_a$.
 
-What is the gene frequency after selection? [^Idea: relative fitness of receiving allele A from parent affects new frequency]
+What is the gene frequency after selection? [^2]
 
 $$p'=P[\to A] = \frac{1\cdot p^2 W_{AA} + 0.5 \cdot 2pqW_{Aa} + 0 \cdot q^2W_{aa}}{\bar{W}} = p\cdot \frac{pW_{AA} + qW_{Aa}}{\bar{W}} = p\cdot \frac{W_A}{\bar{W}}$$
 
@@ -60,3 +60,6 @@ $W_{AA} < W_{Aa} > W_{aa}$: Equilibrium
 ![case3](/Images/WAA0.3WAa1.0Waa0.3.png "Case 3")
 $W_{AA} > W_{Aa} < W_{aa}$: Disruptive Selection
 ![case4](/Images/WAA0.9WAa0.5Waa0.9.png "Case 4")
+
+[^1]: Fitness depends on survivability and reproductive power. Density/Frequency dependence
+[^2]: Idea: relative fitness of receiving allele A from parent affects new frequency
