@@ -29,15 +29,14 @@ Probabilities: 2 alleles \\(A,a\\), proportions: \\(p\\), \\(q=1-p\\). A new zyg
 
 \\(AA\to p^2\\), after fitness selection \\(AA\to p^2 W_{AA}\\).\\
 \\(Aa\to 2pq\\), after fitness selection \\(Aa\to 2pq W_{Aa}\\).\\
-\\(aa\to q^2\\), after fitness selection \\(aa\to q^2 W_{aa}\\).\\
-
+\\(aa\to q^2\\), after fitness selection \\(aa\to q^2 W_{aa}\\).
 
 If all fitnesses were 1 (no selection), the gene frequency doesn't change in the next pool (if we pick an individual at random and then a gene at random):
 \\(P[A] = 1\cdot p^2 + \frac{2pq}{2} + 0\cdot q^2 = p\\).
 
 If there is fitness involved:
 
-Mean fitness: \\(\bar{W} = p^2 W_{AA} + 2pqW_{Aa} + q^2 W_{aa}\\). The mean fitness of each alleles are:
+Mean fitness: \\(\bar{W} = p^2 W_{AA} + 2pqW_{Aa} + q^2 W_{aa}\\). The mean fitness of each allele is:
 
 \\(W_A = pW_{AA} + qW_{Aa}\\)
 
