@@ -50,10 +50,10 @@ $$q'=P[\to a] = q\cdot \frac{W_a}{\bar{W}}$$
 
 Cases (Insert plots):
 $W_{AA} > W_{Aa} > W_{aa}$
-![case1](/WAA0.7WAa0.2Waa0.1.png "Case 1")
+![case1](/Images/WAA0.7WAa0.2Waa0.1.png "Case 1")
 $W_{AA} < W_{Aa} < W_{aa}$
-![case2](/WAA0.1WAa0.2Waa0.7.png "Case 2")
+![case2](/Images/WAA0.1WAa0.2Waa0.7.png "Case 2")
 $W_{AA} < W_{Aa} > W_{aa}$: Equilibrium
-![case3](/WAA0.3WAa1.0Waa0.3.png "Case 3")
+![case3](/Images/WAA0.3WAa1.0Waa0.3.png "Case 3")
 $W_{AA} > W_{Aa} < W_{aa}$: Disruptive Selection
-![case4](/WAA0.9WAa0.5Waa0.9.png "Case 4")
+![case4](/Images/WAA0.9WAa0.5Waa0.9.png "Case 4")
