@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 markdown: kramdown
-site.url: TheoreticalEcology
+site.url: /TheoreticalEcology
 kramdown:
   math_engine: KaTeX
   input: GFM
