@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: minima
 markdown: kramdown
 BASE_PATH: /TheoreticalEcology
 kramdown:
