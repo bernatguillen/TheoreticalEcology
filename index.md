@@ -57,7 +57,7 @@ Similarly:
 
 $$q'=P[\to a] = q\cdot \frac{W_a}{\bar{W}}$$
 
-Cases:
+Cases:\\
 \\(W_{AA} > W_{Aa} > W_{aa}\\)\\
 ![Case 1]({{ BASE_PATH }}/Images/WAA0.7WAa0.2Waa0.1.png "Case 1")
 
