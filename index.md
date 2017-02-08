@@ -1,6 +1,8 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # Theoretical Ecology
 ## Simon A. Levin
-Notes curated and maintained by Bernat Guillen
+
 ## Day 1
 
 ### Models
@@ -50,7 +52,7 @@ Similarly:
 
 $$q'=P[\to a] = q\cdot \frac{W_a}{\bar{W}}$$
 
-Cases (Insert plots):
+Cases:
 $W_{AA} > W_{Aa} > W_{aa}$
 ![case1](/Images/WAA0.7WAa0.2Waa0.1.png "Case 1")
 $W_{AA} < W_{Aa} < W_{aa}$
