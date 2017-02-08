@@ -17,7 +17,7 @@ Assumptions:
 * No immigration/emigration
 * No mutation
 * Large population (ignore stochastic effects)
-* Constant fitnesses ^[Fitness depends on survivability and reproductive power. Density/Frequency dependence]
+* Constant fitnesses [^Fitness depends on survivability and reproductive power. Density/Frequency dependence]
 * Random mating.
 * One locus (genotypes only at one place).
 * Diploid population.
@@ -43,7 +43,7 @@ $W_a = pW_{Aa} + qW_{aa}$
 
 Note that $\bar{W} = pW_A + qW_a$.
 
-What is the gene frequency after selection? ^[Idea: relative fitness of receiving allele A from parent affects new frequency]
+What is the gene frequency after selection? [^Idea: relative fitness of receiving allele A from parent affects new frequency]
 
 $$p'=P[\to A] = \frac{1\cdot p^2 W_{AA} + 0.5 \cdot 2pqW_{Aa} + 0 \cdot q^2W_{aa}}{\bar{W}} = p\cdot \frac{pW_{AA} + qW_{Aa}}{\bar{W}} = p\cdot \frac{W_A}{\bar{W}}$$
 
