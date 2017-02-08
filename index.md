@@ -58,14 +58,17 @@ Similarly:
 $$q'=P[\to a] = q\cdot \frac{W_a}{\bar{W}}$$
 
 Cases:
-\\(W_{AA} > W_{Aa} > W_{aa}\\)
-![case1]({{ BASE_PATH }}/Images/WAA0.7WAa0.2Waa0.1.png "Case 1")
-\\(W_{AA} < W_{Aa} < W_{aa}\\)
-![case2]({{ BASE_PATH }}/Images/WAA0.1WAa0.2Waa0.7.png "Case 2")
-\\(W_{AA} < W_{Aa} > W_{aa}\\): Equilibrium
-![case3]({{ BASE_PATH }}/Images/WAA0.3WAa1.0Waa0.3.png "Case 3")
-\\(W_{AA} > W_{Aa} < W_{aa}\\): Disruptive Selection
-![case4]({{ BASE_PATH }}/Images/WAA0.9WAa0.5Waa0.9.png "Case 4")
+\\(W_{AA} > W_{Aa} > W_{aa}\\)\\
+![Case 1]({{ BASE_PATH }}/Images/WAA0.7WAa0.2Waa0.1.png "Case 1")
+
+\\(W_{AA} < W_{Aa} < W_{aa}\\)\\
+![Case 2]({{ BASE_PATH }}/Images/WAA0.1WAa0.2Waa0.7.png "Case 2")
+
+\\(W_{AA} < W_{Aa} > W_{aa}\\): Equilibrium\\
+![Case 3: Equilibrium]({{ BASE_PATH }}/Images/WAA0.3WAa1.0Waa0.3.png "Case 3")
+
+\\(W_{AA} > W_{Aa} < W_{aa}\\): Disruptive Selection\\
+![Case 4: Disruptive selection]({{ BASE_PATH }}/Images/WAA0.9WAa0.5Waa0.9.png "Case 4")
 
 [^1]: Fitness depends on survivability and reproductive power. Density/Frequency dependence
 [^2]: Idea: relative fitness of receiving allele A from parent affects new frequency
