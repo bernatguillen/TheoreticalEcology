@@ -1,5 +1,5 @@
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 def newp(p, WA, W):
     return p*WA/W
@@ -28,8 +28,15 @@ def myplot(WAA, WAa, Waa):
                 "Waa" + str(Waa) + ".png")
 
 
-if __name__ == main():
-    myplot(10., 5., 2.)
-    myplot(2., 5., 10.)
-    myplot(2., 10., 2.)
-    myplot(10., 4., 10.)
+def plotW(WAA, WAa, Waa):
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    p = np.linspace(0, 1, 100)
+    Wbar = W(WAA, WAa, Waa, p)
+    line, = ax.plot(p, Wbar, lw=2)
+    ax.set_title("$W_{AA}=$" + str(WAA) + ", $W_{Aa}=$" + str(WAa) +
+                 ", $W_{aa}=$" + str(Waa))
+    ax.set_xlabel("$p$")
+    ax.set_ylabel("$\\bar{W}$")
+    fig.savefig("Wbar" + "WAA" + str(WAA) + "WAa" + str(WAa) +
+                "Waa" + str(Waa) + ".png")
