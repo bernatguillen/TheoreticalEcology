@@ -5,7 +5,7 @@ description: >
   These are the notes of the course Theoretical Ecology given by Professor Simon Levin (Spring 2017)
 baseurl: "/TheoreticalEcology"
 github_username: bernatguillen
-theme: jekyll-theme-minimal
+theme: minima
 markdown: kramdown
 kramdown:
   math_engine: KaTeX
